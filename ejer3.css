@@ -1,0 +1,40 @@
+body{ 
+    display: flex; justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+
+}
+
+.contenedor{
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.contiene-info{
+    border: 2px solid black;
+    display: flex; 
+    flex-grow: 1;
+    flex-direction: column;
+    width:90%;
+    margin: 20px;
+    flex-basis: 100%;
+       
+}
+
+.imagen{
+    background-color: antiquewhite;
+    width: 250px;
+    display: flex;
+    /* height: 250px; */
+    flex-grow: 2;
+ 
+}
+
+.descripcion{
+    align-self: stretch;
+
+}
+

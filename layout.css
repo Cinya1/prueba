@@ -1,0 +1,63 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.cajagrande{
+    background-color: rgb(109, 56, 194);
+    display: flex;
+    border: 2px solid black;
+    flex-wrap: wrap;  
+    flex-direction: row;
+    justify-content:baseline;
+    flex-basis: auto;
+}
+/* .contenedor{
+    background-color: chartreuse;
+    display: flex;
+    border: 2px solid black;
+    height: 600px;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+} */
+.menu{ 
+display: flex;
+border: 3px solid black;
+justify-content: flex-start;
+flex-direction: row;
+background-color: aqua;
+width: 300px;
+}
+
+.main{
+    display: flex;
+    border: 2px solid black;
+    flex-grow: 2;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+.aside{
+    border: 2px solid black;
+    flex-grow: 1;
+    justify-content: flex-start;
+    flex-direction: row;
+    background-color: crimson;
+   
+}
+.footer{
+    height: 100px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    background-color: brown;
+}
+/* body debe ocupar todo el alto de la pantalla.
+Footer debe tener un alto fijo (p. ej. 300px), mientras que el
+Menu debe tener un ancho fijo.
+El contenedor de Main y Aside debe ocupar el ancho restante.
+Main debe ocupar dos tercios del ancho de su contenedor.
+Aside debe ocupar un tercio del ancho de su contenedor. */

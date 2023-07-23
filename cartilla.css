@@ -1,0 +1,52 @@
+/* body y el contenedor general deben ocupar todo el alto de la pantalla.
+El header y el footer deben tener un alto fijo.
+Foto e Icono deben tener un ancho fijo.
+Nombre debe ocupar todo el ancho disponible restante.
+El contenedor del menú de opciones debe ocupar el espacio disponible. */
+body{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    
+}
+.padre{
+    display: flex;
+    background-color: blueviolet;
+    flex-basis: 100%;
+    flex-direction: row;
+   justify-content: space-evenly;
+   
+   
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: yellowgreen;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    align-self: flex-start;
+    flex-basis: 100px;
+
+}
+.arriba{
+    width: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    align-self: flex-start;
+    flex-grow: 2;
+    background-color: yellow;
+}
+.contenedor{
+    flex-direction:column;
+    justify-content: center;
+    background-color: aqua;
+    align-self:flex-end;
+}
+div{
+    height: 100px;
+    width: 300px;
+    flex-direction: column;
+}

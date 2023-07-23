@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.primero {
+    display: flex;
+    flex-basis: 100%;
+    background-color: blueviolet;
+    border: 4px solid black;
+    height: 40px;
+}
+#item1{
+    display: flex;
+    flex-basis: 25%;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.rebelde{
+    display: flex;
+    flex-basis: 75%;
+    background-color: rgb(69, 204, 36);
+   
+}
+.segundo{
+    display: flex;
+    flex-basis: 100%;
+    border: 4px solid black;
+    height: 40px;
+}
+#item2{
+    display: flex;
+    flex-basis: 25%;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+.rebelde2{
+    display: flex;
+    flex-basis: 75%;
+    /* flex-wrap: wrap; */
+    background-color: aqua;
+}
+
+.tercero{
+    display: flex;
+    flex-basis: 100%;
+    border: 4px solid black;
+    height: 40px;
+}
+#item3{
+    display: flex;
+    flex-basis: 25%;
+    background-color: brown;
+    border: 2px solid black;
+}
+.rebelde3{
+    flex-basis: 50%;
+}
+.rebelde4{
+    display: flex;
+    flex-basis: 50%;
+    background-color: chocolate;
+}
+
+
+
+

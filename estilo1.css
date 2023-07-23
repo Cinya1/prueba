@@ -1,0 +1,70 @@
+
+.contenedor{
+    display: flex;
+}
+div {
+    height: 70px;
+    background-color: pink ;
+}
+.extremos{
+    width: 250px;
+    background-color: blue;
+    
+}
+.medio{
+    flex-grow: 2;
+    background-color: darkgreen;
+}
+.estremos2{
+    width: 200;
+    background-color: bisque;
+}
+.medio2{
+    flex-grow: 1;
+    background-color: blueviolet;
+
+}
+.medio3 {
+    flex-grow: 1;
+    background-color: brown;
+}
+.div1{
+    background-color: black;
+    flex-grow: 1;
+
+}
+.div2 {
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+.div3{
+    background-color: aqua;
+    flex-grow: 1;
+    
+}
+.div4{
+    background-color: black;
+    flex-grow: 2;
+
+}
+.div5 {
+    background-color: cadetblue;
+    flex-grow: 1;
+}
+.div6{
+    background-color: aqua;
+    flex-grow: 1;
+}
+.div7{
+    background-color: rgb(218, 11, 11);
+    flex-grow: 3;
+
+}
+.div8 {
+    background-color: rgb(221, 236, 10);
+    flex-grow: 1;
+}
+.div9{
+    background-color: aqua;
+    flex-grow: 1;
+}
